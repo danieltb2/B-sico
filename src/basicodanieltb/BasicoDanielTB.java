@@ -36,10 +36,17 @@ public class BasicoDanielTB {
         System.out.println("Valor double:" + d);
     }
 
+    public static void logico() {
+       boolean t=true;
+       int a=5, b=4;
+       if(a==b){t=false;}
+       System.out.println(t);
+    }
     public static void main(String[] args) {
         // TODO code application logic here
         numeros();
         cadenas();
+        logico();
     }
 
 }
