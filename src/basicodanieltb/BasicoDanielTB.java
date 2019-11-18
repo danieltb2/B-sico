@@ -14,8 +14,14 @@ public class BasicoDanielTB {
     /**
      * @param args the command line arguments
      */
+        public static void cadenas() {
+        String cadena="Ejemplo de un String.";
+
+        System.out.println(cadena);
+    }
     public static void main(String[] args) {
         // TODO code application logic here
+        cadenas();
     }
     
 }
